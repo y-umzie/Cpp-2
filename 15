@@ -1,0 +1,18 @@
+//Update the code below to solve the problem
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,Y;
+    cin>>X;
+    Y= 10*X;
+    cout<<Y<<endl;
+  }
+}
