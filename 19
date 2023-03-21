@@ -1,0 +1,22 @@
+// Update the '_' below to solve the problem
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   double A,B,Y;
+   int X;
+   cin>>A>>B;
+   //Division of A by B - float / decimal result
+   X = A / B;
+   //Division of A by B - integer result
+   Y = A / B;
+   cout << Y << " " << X << endl;
+  }
+ 
+}
