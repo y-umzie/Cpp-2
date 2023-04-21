@@ -1,0 +1,21 @@
+// The code below is incorrect. Debug the code to solve the problem
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+ int t;
+ cin>>t;
+ while(t--)
+  { 
+   int X,N;
+   int points_per_testcase,score;
+   cin>>X>>N;
+   points_per_testcase=X/10;
+   score= points_per_testcase*N;
+   cout<<score<<endl;
+   }
+ return 0;
+}
